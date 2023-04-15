@@ -6,12 +6,10 @@ manifest:
 
   projects:
     - name: zmk
-      # remote: zmkfirmware
-      # revision: main
-      # remote: zephyr-3
-      # revision: zephyr/3.1-upgrade
-      remote: kuolemax
-      revision: encoder-fix
+      remote: zmkfirmware
+      revision: main
+   
+   
       import: app/west.yml
   self:
     path: config
